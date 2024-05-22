@@ -7,7 +7,9 @@
 // import GithubProfileFinder from './components/GithubProfileFinder'
 // import ClickDropdownBtn from "./Pages/ClickDropdownBtn"
 // import ScrollToSection from "./components/ScrollToSection/ScrollToSection"
-import Widgets from "./components/Wid/Widgets"
+// import Widgets from "./components/Wid/Widgets"
+// import Transition from "./components/Transition/Transition"
+import ToggleBtn from "./components/ToggleBtn/ToggleBtn"
 import "./index.css"
 
 const App = () => {
@@ -15,11 +17,12 @@ const App = () => {
     <div>
       {/* <LoadMore/> */}
       {/* <Accordin/> */}
-{/* <ClickDropdownBtn/> */}
+      {/* <ClickDropdownBtn/> */}
       {/* <StarRating noOfStar = {10}/> */}
       {/* <ScrollToSection/> */}
-      <Widgets/>
-
+      {/* <Widgets/> */}
+      {/* <Transition/> */}
+      <ToggleBtn />
       {/* <ImageSlider/> */}
       {/* <QRcode/> */}
       {/* <Modelpopup/> */}

@@ -1,4 +1,3 @@
-import "./Card1.css"
 
 
 const Card1 = () => {

@@ -58,7 +58,7 @@ const ScrollToSection = () => {
     return (
         <div>
             <h1>ScrollToSection</h1>
-            <button onClick={handleClickSection} className="bg-black p-3 text-white rounded-md mb-7 ml-[45%]">Click TO Scroll</button>
+            <button onClick={handleClickSection} className="bg-black p-3 text-white rounded-md mb-7 ml-[45%]">Click To Scroll</button>
 
             {data.map((dataItem, index) => (
                 <div key={index} ref={index === 3 ? ref : null} style={dataItem.style}>

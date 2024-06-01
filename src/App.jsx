@@ -11,7 +11,9 @@
 // import Transition from "./components/Transition/Transition"
 // import ToggleBtn from "./components/ToggleBtn/ToggleBtn"
 // import Card1 from "./components/Card/Card1"
-import ImageAccordian from "./components/ImageAccordian/ImageAccordian"
+// import ImageAccordian from "./components/ImageAccordian/ImageAccordian"
+// import PaginationTest from "./components/Pagination/test"
+import Todo from "./components/TodoList/Todo"
 import "./index.css"
 
 const App = () => {
@@ -31,10 +33,13 @@ const App = () => {
       {/* <GithubProfileFinder /> */}
       {/* <Card1/> */}
 
-      <ImageAccordian/>
+      {/* <ImageAccordian/> */}
       {/* 26/05/2024 */}
 
+{/* 1/06/2024 */}
+{/* <PaginationTest/> */}
 
+<Todo/>
 
 
 

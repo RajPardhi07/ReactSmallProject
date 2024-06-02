@@ -48,6 +48,12 @@ const ScrollToSection = () => {
     const handleClickSection = () => {
         let pos = ref.current.getBoundingClientRect().top;
 
+        // The Element.getBoundingClientRect() method returns 
+        // a DOMRect object providing information about the size 
+        // of an element and its position relative to the viewport.
+
+
+
         window.scrollTo({
             top: pos,
             behavior: "smooth",
